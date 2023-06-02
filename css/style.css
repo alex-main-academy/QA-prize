@@ -244,7 +244,7 @@ body {
 
 @-webkit-keyframes lights {
     0% {
-        color: #B8D4E8;
+        color: #75FFEE;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.2),
             0 0 0.125em hsla(320, 100%, 60%, 0.3),
@@ -252,8 +252,8 @@ body {
             1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
     }
 
-    30% {
-        color: #B8D4E8;
+    20% {
+        color: #75FFEE;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.5),
             0 0 0.125em hsla(320, 100%, 60%, 0.5),
@@ -262,7 +262,7 @@ body {
     }
 
     40% {
-        color: #FB9B60;
+        color: #FFB88E;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.5),
             0 0 0.125em hsla(320, 100%, 90%, 0.5),
@@ -271,7 +271,7 @@ body {
     }
 
     70% {
-        color: #FB9B60;
+        color: #FFB88E;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.5),
             0 0 0.125em hsla(320, 100%, 60%, 0.5),
@@ -280,7 +280,7 @@ body {
     }
 
     100% {
-        color: #B8D4E8;
+        color: #75FFEE;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.2),
             0 0 0.125em hsla(320, 100%, 60%, 0.3),
@@ -291,7 +291,7 @@ body {
 
 @keyframes lights {
     0% {
-        color: #B8D4E8;
+        color: #75FFEE;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.2),
             0 0 0.125em hsla(320, 100%, 60%, 0.3),
@@ -299,8 +299,8 @@ body {
             1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
     }
 
-    30% {
-        color: #B8D4E8;
+    20% {
+        color: #75FFEE;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.5),
             0 0 0.125em hsla(320, 100%, 60%, 0.5),
@@ -309,7 +309,7 @@ body {
     }
 
     40% {
-        color: #FB9B60;
+        color: #FFB88E;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.5),
             0 0 0.125em hsla(320, 100%, 90%, 0.5),
@@ -318,7 +318,7 @@ body {
     }
 
     70% {
-        color: #FB9B60;
+        color: #FFB88E;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.5),
             0 0 0.125em hsla(320, 100%, 60%, 0.5),
@@ -327,7 +327,7 @@ body {
     }
 
     100% {
-        color: #B8D4E8;
+        color: #75FFEE;
         text-shadow:
             0 0 1em hsla(320, 100%, 50%, 0.2),
             0 0 0.125em hsla(320, 100%, 60%, 0.3),
@@ -350,7 +350,7 @@ body {
     line-height: 2;
     -webkit-animation: lights 5s 750ms linear infinite;
     animation: lights 5s 750ms linear infinite;
-    color: #B8D4E8;
+    color: #75FFEE;
 }
 
 .hero__title {
