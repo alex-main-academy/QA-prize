@@ -147,7 +147,7 @@ body {
 .hero {
     position: relative;
     height: 100vh;
-    padding-top: 104px;
+    padding-top: calc((100vh - 480px) / 2);
     background-image: url(../img/hero/bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,53 +239,6 @@ body {
 
     100% {
         bottom: -80px;
-    }
-}
-
-@-webkit-keyframes lights {
-    0% {
-        color: #FFFFFF;
-        text-shadow:
-            0 0 1em hsla(320, 100%, 50%, 0.2),
-            0 0 0.125em hsla(320, 100%, 60%, 0.3),
-            -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
-            1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
-    }
-
-    20% {
-        color: #FFFFFF;
-        text-shadow:
-            0 0 1em hsla(320, 100%, 50%, 0.5),
-            0 0 0.125em hsla(320, 100%, 60%, 0.5),
-            -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
-            0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
-    }
-
-    40% {
-        color: #FFFFFF;
-        text-shadow:
-            0 0 1em hsla(320, 100%, 50%, 0.5),
-            0 0 0.125em hsla(320, 100%, 90%, 0.5),
-            -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
-            0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
-    }
-
-    70% {
-        color: #FFFFFF;
-        text-shadow:
-            0 0 1em hsla(320, 100%, 50%, 0.5),
-            0 0 0.125em hsla(320, 100%, 60%, 0.5),
-            0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
-            -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
-    }
-
-    100% {
-        color: #FFFFFF;
-        text-shadow:
-            0 0 1em hsla(320, 100%, 50%, 0.2),
-            0 0 0.125em hsla(320, 100%, 60%, 0.3),
-            1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
-            -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
     }
 }
 
@@ -405,7 +358,7 @@ body {
     }
 
     .hero {
-        padding-top: 77px;
+        padding-top: calc((100vh - 480px) / 2);
         background-image: url(../img/hero/bg-l.webp);
     }
 
@@ -529,6 +482,7 @@ body {
     }
 
     .hero {
+        padding-top: 77px;
         background-image: url(../img/hero/bg-s.webp);
         background-size: cover;
         background-position: center;
