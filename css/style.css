@@ -140,7 +140,7 @@ body {
 
 .container {
     max-width: 1520px;
-    margin: 0 auto;
+    margin-left: 198px;
 }
 
 .hero {
@@ -199,11 +199,22 @@ body {
     font-size: 22px;
     line-height: 1;
     font-family: var(--primary-font);
+    transition-duration: 300ms;
+}
+
+.hero__link:hover {
+    box-shadow: none;
+}
+
+.hero__link:active {
+    box-shadow: none;
+    background-color: #A72C2C;
 }
 
 @media screen and (max-width:1600px) {
     .container {
         max-width: 1060px;
+        margin-left: 187px;
     }
 
     .hero {
@@ -225,6 +236,7 @@ body {
 @media screen and (max-width:1200px) {
     .container {
         max-width: 630px;
+        margin: 0 auto;
     }
 
     .hero {
