@@ -136,6 +136,7 @@ body {
     font-family: var(--primary-font);
     color: var(--primary-text-color);
     letter-spacing: 0.01em;
+    height: 100vh;
 }
 
 .container {
@@ -144,7 +145,7 @@ body {
 }
 
 .hero {
-    min-height: 100vh;
+    height: 100vh;
     padding-top: 104px;
     background-image: url(../img/hero/coin-left.png), url(../img/hero/coin-bottom.png), url(../img/hero/bg.webp);
     background-repeat: no-repeat;
@@ -240,12 +241,14 @@ body {
     }
 
     .hero {
-        background-image: url(../img/hero/coin-left.png), url(../img/hero/coin-right.png), url(../img/hero/bg-m.webp);
-        background-position: top 300px left, bottom 250px right, center;
+        background-image: url(../img/hero/coin-s-center.png), url(../img/hero/coin-s-left.png), url(../img/hero/coin-s-right.png), url(../img/hero/bg-s.webp);
+        background-size: 156px, 60px, 90px, cover;
+        background-position: top 185px center, top 310px left, top 575px right, center;
     }
 
     .hero__logo {
         justify-content: center;
+        margin-bottom: 212px;
     }
 
     .hero__title {
@@ -276,13 +279,13 @@ body {
 
     .hero {
         padding-top: 32px;
-        background-image: url(../img/hero/bg-s.webp);
-        background-size: cover;
-        background-position: center;
+        background-image: url(../img/hero/coin-s-center.png), url(../img/hero/coin-s-left.png), url(../img/hero/coin-s-right.png), url(../img/hero/bg-s.webp);
+        background-size: auto, auto, auto, cover;
+        background-position: top 120px center, top 370px left, top 220px right, center;
     }
 
     .hero__logo {
-        margin-bottom: 45px;
+        margin-bottom: 116px;
     }
 
     .hero__logo_name {
@@ -291,18 +294,19 @@ body {
     }
 
     .hero__title {
-        font-size: 32px;
-        line-height: 1.41;
-        margin-bottom: 17px;
+        font-size: 28px;
+        line-height: 1.46;
+        margin-bottom: 20px;
     }
 
     .hero__subtitle {
         font-size: 18px;
         line-height: 1.78;
-        margin-bottom: 46px;
+        margin-bottom: 40px;
     }
 
     .hero__link {
         width: 100%;
+        box-shadow: 0px 4px 152px rgba(192, 43, 43, 0.49);
     }
 }
